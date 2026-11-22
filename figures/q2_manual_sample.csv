@@ -1,0 +1,26 @@
+hash,date,merge,n_files,msg,path,category,bot
+54ae1cb0e902aac1bce44e2a315650d395c710b5,2021-01-06 23:31:22+08:00,False,1,Update the example in README,README.rst,documentation / project docs,False
+78bcf1d8c6e9a63ea818d2febaa56c4878e90db6,2021-02-02 03:27:50+00:00,False,1,Bump tox from 3.20.1 to 3.21.3,requirements/dev.txt,config / CI / dependencies,True
+06fd6aca27cca6eae7ab00379f5ad9300e339d11,2021-03-22 17:04:33+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+0d594b8c0f13c70507aa61a7666c844c5e2aeda0,2021-05-21 12:33:09+08:00,False,1,Add update pip and setuptools section (#4061),CONTRIBUTING.rst,documentation / project docs,False
+35eb582bf3ddbe995681363167eb3233f539ef8b,2021-06-20 23:20:14+08:00,False,1,Change flask.xxx to plain version in testing docs,docs/testing.rst,documentation / project docs,False
+f9ccca97e476a9ffc1fcdf081f9f083a119c5ce2,2021-07-05 22:11:00+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+6e1b72096d5ae1e2cc4d8592ff8271b62548d9cf,2021-07-06 22:05:31+02:00,False,1,Fix typo in docs,src/flask/app.py,production code,False
+922e91b278c19bee1154ea32a7c0c99f87d4d9b6,2021-07-07 15:16:29+08:00,False,1,Omit the type attribute of script tag,docs/api.rst,documentation / project docs,False
+c627b5e77310e67bc6a7e789f8ec5ea368f1c88c,2021-12-22 15:43:13-08:00,False,1,updates go to maintenance branch,.github/dependabot.yml,config / CI / dependencies,False
+a65683a65cbbe176ef6e061812618a507a071106,2021-12-22 23:43:55+00:00,False,1,Bump dessant/lock-threads from 2 to 3,.github/workflows/lock.yaml,config / CI / dependencies,True
+8ddbad9ccdc176b9d57a4aff0076c1c58c455318,2022-05-02 09:11:07-07:00,False,1,Fix linting error.,src/flask/cli.py,production code,False
+4f01c68a4bcabf7dde010b7c602f2811aa89a852,2022-07-13 14:02:50-07:00,False,1,fix issue link,CHANGES.rst,changelog,False
+6ab3cb8d0cb1fa28dd2e0118c07e481720bd684a,2022-08-08 10:27:57-07:00,False,1,fix issue number,CHANGES.rst,changelog,False
+00b07c863ec147256b68f71c3fe9b6b2f9dbe6bc,2022-08-09 09:48:02+02:00,False,1,fix typo,src/flask/globals.py,production code,False
+0d8c8ba71bc6362e6ea9af08146dc97e1a0a8abc,2022-09-18 04:53:47-07:00,False,1,Fix docstring of test_request_context (#4821),src/flask/app.py,production code,False
+75e92090ee43642ad0608edc8bc5d4dc5e84dec8,2022-10-04 21:12:13-04:00,False,1,fix typo in quickstart,docs/quickstart.rst,documentation / project docs,False
+d951a763fb90ff3edb5aede5198198ee5d30d44e,2022-11-27 13:51:09+04:00,False,1,Fix backstick not rendering.,docs/config.rst,documentation / project docs,False
+427e5dc4f3d82b67a75f4be21360818fd4fbf05e,2023-04-25 11:00:01-06:00,False,1,update dev env,tox.ini,config / CI / dependencies,False
+f39c71609e9372bec8beb01c5aea3957ec2d1a9b,2023-06-27 14:18:18-07:00,False,1,remove manifest.in,MANIFEST.in,config / CI / dependencies,False
+80cf589a26d792820f135591eb8007bca891bf4f,2023-08-19 18:35:15+01:00,False,1,Correct the error handler typing,src/flask/typing.py,production code,False
+65271c105f7c247ecffc9a7121815276e092bd10,2023-08-27 07:12:04-07:00,False,1,Remove print left in by accident,src/flask/app.py,production code,False
+2d31dce8262a68875c177645fa0c7585a45ac447,2024-08-23 16:33:40-07:00,False,1,remove dependabot,.github/dependabot.yml,config / CI / dependencies,False
+f93dd6e826a9bf00bf9e08d9bb3a03abcb1e974c,2024-08-23 18:05:21-07:00,False,1,remove pre-commit.ci update,.pre-commit-config.yaml,config / CI / dependencies,False
+dffe3034825edc4f84aded013fc9c6590e545ed5,2024-10-18 13:04:35-07:00,False,1,fix mypy findings,src/flask/helpers.py,production code,False
+74721b48f0347f19f134f386fab3421e5132fb53,2024-10-22 17:32:02-03:00,False,1,Fix the issue link in the Flask 3.0.1 Changelog in the send_file argument type entry,CHANGES.rst,changelog,False

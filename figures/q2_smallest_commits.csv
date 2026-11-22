@@ -1,0 +1,336 @@
+hash,date,merge,n_files,msg,path,category,bot
+2622739771778f2b901de5ad690ab1028c2a1df0,2021-01-01 09:42:25+00:00,False,1,Bump pre-commit from 2.8.2 to 2.9.3,requirements/dev.txt,config / CI / dependencies,True
+d1a21022e0cf6b7243ce26965a13a0b8fe371f10,2021-01-01 09:46:36+00:00,False,1,Bump pip-tools from 5.3.1 to 5.5.0,requirements/dev.txt,config / CI / dependencies,True
+eb41e7e417cbf53d19517e356381423cfd256c2f,2021-01-03 13:57:45+08:00,False,1,Silence pytest warnings for exception propagation test,tests/test_basic.py,tests,False
+aff21fd8bc4d168caf481de87bb5447adccd18ad,2021-01-04 09:45:01+08:00,False,1,Document parameter description error,src/flask/json/__init__.py,production code,False
+2fab8a31ae2639b3eacdd3935d58203b09650f29,2021-01-04 10:32:01+08:00,False,1,Fix broken func directives in docstrings,src/flask/json/__init__.py,production code,False
+54ae1cb0e902aac1bce44e2a315650d395c710b5,2021-01-06 23:31:22+08:00,False,1,Update the example in README,README.rst,documentation / project docs,False
+7068d0983a29eb411bcd361ef8b764a8d10684ed,2021-01-27 12:08:02-05:00,False,1,Clarify json error handling,docs/blueprints.rst,documentation / project docs,False
+eb42655c46f8a598f2e0ead624ba5a65a8a66e90,2021-01-29 11:03:33-08:00,False,1,simplify BadRequestKeyError.show_exception,src/flask/app.py,production code,False
+81ba6c24efea58dd00c093448fa2e529c0cda507,2021-02-01 19:14:58-08:00,False,1,remove Jinja 'autoescape' and 'with' extensions,src/flask/app.py,production code,False
+78bcf1d8c6e9a63ea818d2febaa56c4878e90db6,2021-02-02 03:27:50+00:00,False,1,Bump tox from 3.20.1 to 3.21.3,requirements/dev.txt,config / CI / dependencies,True
+b379bd4a781ed09c8f2d8d0756fb4bed1cc598a8,2021-02-02 03:33:13+00:00,False,1,Bump pre-commit from 2.9.3 to 2.10.0,requirements/dev.txt,config / CI / dependencies,True
+d55ee5b91759c411d90ebb2046466fb27640d5ff,2021-02-01 19:55:24-08:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+451c1f87f39253c35360f3e9e004df19e0c74638,2021-02-01 20:28:10-08:00,False,1,got_request_exception only sends unhandled exceptions,docs/api.rst,documentation / project docs,False
+0ee1b0b5d9712b6cf2f22429db98549e1a0c8cb8,2021-02-08 18:04:02-08:00,False,1,remove test relying on Werkzeug Local internals,tests/test_regression.py,tests,False
+3fe23bf899d3454eb7e7fd1eb0b7a812497cd365,2021-02-08 18:12:19-08:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+dbe76bb75d597401d33ef428d79540797e9297b3,2021-02-08 18:20:48-08:00,False,1,add security policy,.github/SECURITY.md,documentation / project docs,False
+b496d8b7cb72f29dc91d2859829caedae25d62ea,2021-02-08 18:26:37-08:00,False,1,update contributing guide,CONTRIBUTING.rst,documentation / project docs,False
+76abbe9062ee6752d94003c9ca72fe2db5caf100,2021-02-19 22:59:09+08:00,False,1,Remove the mention of Flask-OAuth in the extension dev docs,docs/extensiondev.rst,documentation / project docs,False
+6e7869ec49a42c1d7964fb8a62eded25b0321970,2021-03-01 15:15:58+00:00,False,1,Bump tox from 3.21.4 to 3.22.0,requirements/dev.txt,config / CI / dependencies,True
+83d358d2c43c79b7d7fe5365e079447296c65eaf,2021-03-08 09:58:12-08:00,False,1,"remove _blueprint_order, dicts are ordered",src/flask/app.py,production code,False
+25ab05e6a2ae248ab76002807d47c23952492f17,2021-03-10 10:38:16-08:00,False,1,remove old note about InternalServerError,src/flask/app.py,production code,False
+ef52e3e4a379b16a8b906ff101c6edae71d80dc9,2021-03-10 10:38:17-08:00,False,1,remove redundant _register_error_handler,src/flask/scaffold.py,production code,False
+3dfc12e8d82a66c4041783fcaec58a7a24dbe348,2021-03-10 10:51:06-08:00,False,1,only extend on first registration,src/flask/blueprints.py,production code,False
+46d8e90f29d5363239ad02446eaf535c2a6b2308,2021-03-15 17:00:57+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+6eeaa2e50d2e3ff776085d0b28d58d1db65a0538,2021-03-16 16:30:54+00:00,False,1,fix a broken link,docs/quickstart.rst,documentation / project docs,False
+06fd6aca27cca6eae7ab00379f5ad9300e339d11,2021-03-22 17:04:33+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+70b58c82d9d19932ea3049415a785718e07c830e,2021-04-05 17:10:21+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+61fbae866478c19ea5f5c3b9b571a4fad0ba7e5c,2021-04-06 15:33:06-07:00,False,1,skip async tests if asgiref isn't installed,tests/test_async.py,tests,False
+08693ae91783bef4f13346d73472b45a40f26c6c,2021-04-12 17:12:29+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+6d5ccdefe29292974d0bb8e1d80dcd1a06f28368,2021-04-12 19:38:42+01:00,False,1,Bugfix iscoroutinefunction with Python3.7,src/flask/app.py,production code,False
+5a7a4ab4c5eed63a23762e09b7e6a739375ad0f0,2021-04-15 23:07:28-07:00,False,1,locked_cached_property subclasses cached_property,src/flask/helpers.py,production code,False
+ec27677f956859fb91c87c4ec7e2766873e67bc0,2021-04-15 23:14:53-07:00,False,1,remove _os_alt_seps,src/flask/helpers.py,production code,False
+afda0ed9f2e8e45b152919573858627a1cc86d3a,2021-04-16 08:44:30-07:00,False,1,update deprecated pre-commit hook,.pre-commit-config.yaml,config / CI / dependencies,False
+07000942dacaeffa84d9db57ea42570fcfb0395e,2021-04-16 08:45:04-07:00,False,1,update minimum install requirements,setup.py,other,False
+7df5db7b0c78b0588f82f2148b51461f94320b90,2021-04-16 08:45:26-07:00,False,1,release version 2.0.0rc1,src/flask/__init__.py,production code,False
+c791f6312b092678c2a152d0605e49c26831cb05,2021-04-22 20:34:55+08:00,False,1,Fix typo in issue template,.github/ISSUE_TEMPLATE/feature-request.md,documentation / project docs,False
+e6e75e55470a0682ee8370e6d68062e515a248b9,2021-04-24 07:31:16-07:00,False,1,changelog for bumped pallets versions,CHANGES.rst,changelog,False
+b373e7a456f1be4efb6f27c4a21af0dd04260229,2021-04-26 17:21:56+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+9be01564f28ed49cbf55049265bd578c7a7257e1,2021-04-28 14:20:44+08:00,False,1,Update changelog for #3932,CHANGES.rst,changelog,False
+d124214129fd76cd620736f9dadc5e726eb8f34f,2021-04-28 16:46:45+00:00,False,1,Upgrade to GitHub-native Dependabot,.github/dependabot.yml,config / CI / dependencies,False
+36e6ec45a9885fb1a6a22b0eb15b8810a8712418,2021-04-28 20:54:53+00:00,False,1,Bump pre-commit from 2.12.0 to 2.12.1,requirements/dev.txt,config / CI / dependencies,True
+ec044a24e10d2bd3c730f69909cd44639b469fd0,2021-04-29 10:59:26+08:00,False,1,Add tips for using async on Windows on Python 3.8,docs/async-await.rst,documentation / project docs,False
+8bfce88e39dd427dc1258a04c6b0cafa9667ff3e,2021-05-02 16:05:08-04:00,False,1,Minor docs fixes. (#3988),docs/async-await.rst,documentation / project docs,False
+cb13128cf03b2f1b3c5b48eab518e57e7b5f6516,2021-05-03 06:15:39-07:00,False,1,Remove context copying from run_async function,src/flask/helpers.py,production code,False
+e2b7d1056c6c8f6f26a4b9dfcc5dc4b2ef87f573,2021-05-03 07:02:42-07:00,False,1,release version 2.0.0rc2,src/flask/__init__.py,production code,False
+c93a2d76d5874f2cb175b7e91407dc6c877e0139,2021-05-03 17:21:04+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+95e5843ad51b025098ee33acbf273bafef26a1d8,2021-05-10 20:25:42+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+79ac96f1239601eb12f6f69fcb3ce6cb269ac5fb,2021-05-10 22:45:42-07:00,False,1,show type hints in description,docs/conf.py,documentation / project docs,False
+8b72f6abd72b32225299c57c981180df35a89547,2021-05-11 06:57:24-07:00,False,1,update pre-commit monthly,.pre-commit-config.yaml,config / CI / dependencies,False
+57b19fda540b596cd211ac864362485e09be203b,2021-05-12 07:49:34+00:00,False,1,Fix typo in the example of nesting bp docs,docs/blueprints.rst,documentation / project docs,False
+d575de5159a6e40944275763c9ada2801214058b,2021-05-12 07:51:21+00:00,False,1,Fix typo in the example of nesting bp docs,docs/blueprints.rst,documentation / project docs,False
+2889ea4dd9bfee0d4b63a435c5a8d20337770f9c,2021-05-12 09:14:34-04:00,False,1,Added Google Cloud Run as a Hosted option,docs/deploying/index.rst,documentation / project docs,False
+14921608871f15f8c34d48026473293e225ad608,2021-05-13 03:54:41-04:00,False,1,Fix Fork link,CONTRIBUTING.rst,documentation / project docs,False
+2baaa8fd8ebdd0f7bf7a24bff4855ef53476c92d,2021-05-13 11:36:05-07:00,False,1,fix annotation for g object,src/flask/globals.py,production code,False
+9c186ccfe8fa4156123e9252a6e8a9cc68bfecab,2021-05-14 13:23:34-07:00,False,1,Use escape function in return statement for username and subpath.,docs/quickstart.rst,documentation / project docs,False
+1b5f21e015e2c4f36fcdb34a09ce93787d59e181,2021-05-17 08:46:36-07:00,False,1,Add pathlib in cli tests,tests/test_cli.py,tests,False
+afc907fd0d4a4e96398829d75ded9711a3046070,2021-05-17 16:03:12-07:00,False,1,use _typeshed.wsgi instead of wsgiref.types,src/flask/typing.py,production code,False
+0d594b8c0f13c70507aa61a7666c844c5e2aeda0,2021-05-21 12:33:09+08:00,False,1,Add update pip and setuptools section (#4061),CONTRIBUTING.rst,documentation / project docs,False
+8796b2a784bc45fcc6865cd80b2cba0601448727,2021-05-21 08:09:05+00:00,False,1,Use TypeVar for setupmethod(),src/flask/scaffold.py,production code,False
+a82cc31af847de7250cd489f6080802ce3f5236e,2021-05-21 08:09:05+00:00,False,1,Update CHANGES.rst,CHANGES.rst,changelog,False
+36872e7bd45162dc78e789f45e026932a4687434,2021-05-21 16:58:58+08:00,False,1,Add venv and .venv to .gitignore,.gitignore,other,False
+a541c2ac8b05c2b23e11bd8540088fce1abc2373,2021-05-21 12:11:03+00:00,False,1,Fix view decorators docs,docs/patterns/viewdecorators.rst,documentation / project docs,False
+aa6fbf2f5a6265dd0ecaaca03e646c3c2a8f58d2,2021-05-24 16:33:02+08:00,False,1,Fix typo in docs/tutorial/index.rst,docs/tutorial/index.rst,documentation / project docs,False
+5d0104f67e6e465e5416803062ed53add1e8d333,2021-06-01 08:04:58+00:00,False,1,Bump pre-commit from 2.12.1 to 2.13.0,requirements/dev.txt,config / CI / dependencies,True
+491ea32803cb05fb8fc4dfb81ec6c96f94529eb0,2021-06-01 15:50:20+00:00,False,1,Optimize loop in Flask._find_error_handler(),src/flask/app.py,production code,False
+5205cd4ea979f6c322e4e6a256a72e7808592818,2021-06-01 18:08:19+00:00,False,1,[pre-commit.ci] auto fixes from pre-commit.com hooks,tests/test_async.py,tests,True
+63893a427bd022d192febadad0b31ae06fa80776,2021-06-06 11:09:03+01:00,False,1,Improve the changelog entry,CHANGES.rst,changelog,False
+92bed6619459da93f79e85ec674b24cb6fa322f6,2021-06-08 19:01:07+02:00,False,1,Update celery.rst,docs/patterns/celery.rst,documentation / project docs,False
+34027d8d876c140f84e18d6b56c0aecc5481874c,2021-06-14 14:20:04+08:00,False,1,Improve the contributing guide,CONTRIBUTING.rst,documentation / project docs,False
+f353d126d199071c7933e2f62409e5532333bec5,2021-06-18 10:10:29+08:00,False,1,Update docs of rendering templates (#4153),docs/quickstart.rst,documentation / project docs,False
+5fa7d2efe757e028a734d3dc56e9f13bb812a92a,2021-06-18 20:15:02+08:00,False,1,Update templating.rst,docs/templating.rst,documentation / project docs,False
+7b696e076a8ebf22e8ad096b7278051d475c88be,2021-06-18 22:18:15+08:00,False,1,Update testing.rst,docs/testing.rst,documentation / project docs,False
+35eb582bf3ddbe995681363167eb3233f539ef8b,2021-06-20 23:20:14+08:00,False,1,Change flask.xxx to plain version in testing docs,docs/testing.rst,documentation / project docs,False
+c224832acccbb9b16485c7adeb7714c71fce1ea8,2021-06-26 22:15:43+08:00,False,1,Fix typo in docs/views.rst,docs/views.rst,documentation / project docs,False
+ae53c32048dbef4ce1aaf9ecb86925e507118a38,2021-07-01 10:06:46+00:00,False,1,Bump pip-tools from 6.1.0 to 6.2.0,requirements/dev.txt,config / CI / dependencies,True
+f9ccca97e476a9ffc1fcdf081f9f083a119c5ce2,2021-07-05 22:11:00+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+6e1b72096d5ae1e2cc4d8592ff8271b62548d9cf,2021-07-06 22:05:31+02:00,False,1,Fix typo in docs,src/flask/app.py,production code,False
+922e91b278c19bee1154ea32a7c0c99f87d4d9b6,2021-07-07 15:16:29+08:00,False,1,Omit the type attribute of script tag,docs/api.rst,documentation / project docs,False
+29c09a92c45bc0120331dd22f7079f9161d72ab7,2021-07-07 15:18:04+08:00,False,1,Omit the type attribute of script tag,docs/patterns/jquery.rst,documentation / project docs,False
+85c35bd6155e14f5c0829a88533d13321408bda5,2021-07-07 19:26:24+08:00,False,1,Fix link in ASGI docs (#4191),docs/deploying/asgi.rst,documentation / project docs,False
+bb3217b35017f269e3ce411bf070904e3858d307,2021-08-01 08:03:36+00:00,False,1,Bump tox from 3.23.1 to 3.24.1,requirements/dev.txt,config / CI / dependencies,True
+f2b1dc45bd0baf5a5302893bc068e37b4c4d4575,2021-08-02 18:50:27+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+858cc9cace5c13941495d8a789668523e1ae87c7,2021-08-05 08:52:42-07:00,False,1,Wrong variable name use,docs/quickstart.rst,documentation / project docs,False
+e18ed45c8863ac645f3ce17a155034b8384e726f,2021-08-05 17:38:24-07:00,False,1,document return value for config loading methods,src/flask/config.py,production code,False
+2305b056c3a3161c92ea61e6fceb67262766bc40,2021-08-05 19:15:31-07:00,False,1,add test for lazy loading error,tests/test_cli.py,tests,False
+9830fd8a806d677a279ed60bf3fa33ebb5691a5f,2021-08-10 06:07:21-07:00,False,1,update pip link,README.rst,documentation / project docs,False
+78e82a3ef74e433ac4e0bda521877cbb60bc77ba,2021-08-10 06:50:09-07:00,False,1,update pre-commit hooks,.pre-commit-config.yaml,config / CI / dependencies,False
+d4b540eb7d1f1b18ed516a0dd4e7d1ac5e537f38,2021-08-10 07:02:55-07:00,False,1,install type stubs from requirements,tox.ini,config / CI / dependencies,False
+84aa8706c0cdf28fe5de1b9170a8b686699fb0e5,2021-08-14 05:10:45-07:00,False,1,Remove the mention of Flask-Uploads in uploading docs,docs/patterns/fileuploads.rst,documentation / project docs,False
+f6e4e8ab9d44cb916e71976d48671a70ca59a692,2021-09-01 08:03:07+00:00,False,1,Bump pre-commit from 2.14.0 to 2.14.1,requirements/dev.txt,config / CI / dependencies,True
+6d32d342336f528934829ed7a034a29af66c2822,2021-09-01 08:03:32+00:00,False,1,Bump tox from 3.24.1 to 3.24.3,requirements/dev.txt,config / CI / dependencies,True
+4a37b627aef7019d3da84fd0a62fd8581ede6543,2021-09-06 19:06:50+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+e1dce5c39ac093915a34bac99c37402245fd52f4,2021-09-08 10:00:36+02:00,False,1,Fix typo in docs (#4261),docs/deploying/uwsgi.rst,documentation / project docs,False
+7c7b583603f85b3253b6d531d7f8e8d29060ddc7,2021-09-08 16:03:56-07:00,False,1,update pre-commit hooks,.pre-commit-config.yaml,config / CI / dependencies,False
+9d9108fe25600c566643f902255d74ff68d88967,2021-09-14 12:29:42-04:00,False,1,fix: typo docs/debugging.rst:72,docs/debugging.rst,documentation / project docs,False
+aa1d34dc51fc63dabc46f388822ba73b15d3ef97,2021-09-22 10:12:36-07:00,False,1,Fix grammatical error (#4268),src/flask/scaffold.py,production code,False
+3a78f501e9eadd9225a00194aefc54dbdca1df74,2021-10-01 09:57:25-07:00,False,1,Fix broken link to Flask-WTF,docs/patterns/wtforms.rst,documentation / project docs,False
+22933a8cb424ffd65f2bec5bbfdbfa7e42105470,2021-10-01 10:01:54-07:00,False,1,fix docs for Flask.test_client_class,src/flask/app.py,production code,False
+76858515944121ae3faf699f85ab2c4b7806d3d1,2021-10-01 19:46:54-07:00,False,1,fix list numbering,artwork/LICENSE.rst,documentation / project docs,False
+3f6cdbd8b35f2b887dddbdac5ef6461833b6dd3b,2021-10-03 20:36:21-07:00,False,1,use similar code for all callback-applying methods,src/flask/app.py,production code,False
+6d65595a3c0a02d098c36f7d337e053e07975316,2021-10-05 08:03:30-07:00,False,1,try to address flakiness of lazy loading test,tests/test_cli.py,tests,False
+b2b60450f7b9fae08bbd22f771f7b973aee6a135,2021-10-05 09:11:00-07:00,False,1,allow lazy loading test to fail on pypy,tests/test_cli.py,tests,False
+225ff3ea6c260e17a15a896d272eaba259777ba3,2021-10-18 10:41:39+02:00,False,1,Fix example `SECRET_KEY` generation code,docs/config.rst,documentation / project docs,False
+a2e79eefc9e13c48e5c44f1eb0c1d69b55bbf79a,2021-11-07 10:40:52+08:00,False,1,Correct the actual unescaped character,docs/quickstart.rst,documentation / project docs,False
+df806c80359461fda0354460a46645d619e00942,2021-11-11 18:32:07-08:00,False,1,update docs about gevent/eventlet/greenlet,docs/deploying/wsgi-standalone.rst,documentation / project docs,False
+7860c1de87400ab8e43a2b4dada7d8b8f0eb51ab,2021-11-15 06:46:25-08:00,False,1,remove click 7 tox env,tox.ini,config / CI / dependencies,False
+282d8621dd4bdc3ee74e0d67b180e03f5f23899f,2021-11-16 06:19:01-08:00,False,1,document session lifetime and possible concurrency issues,src/flask/sessions.py,production code,False
+9fe21310bb3ccac70c4de8a7bc48d1dd69611ece,2021-11-16 08:34:55-08:00,False,1,replace nbsp characters,docs/tutorial/layout.rst,documentation / project docs,False
+f16524ea1de682db50ee18a91b5204a834995b2e,2021-12-16 04:28:09+01:00,False,1,fix typo,docs/server.rst,documentation / project docs,False
+c627b5e77310e67bc6a7e789f8ec5ea368f1c88c,2021-12-22 15:43:13-08:00,False,1,updates go to maintenance branch,.github/dependabot.yml,config / CI / dependencies,False
+2952e6a323e085d1547461b89184e2239090fe1a,2021-12-22 15:43:28-08:00,False,1,update github actions,.github/dependabot.yml,config / CI / dependencies,False
+a65683a65cbbe176ef6e061812618a507a071106,2021-12-22 23:43:55+00:00,False,1,Bump dessant/lock-threads from 2 to 3,.github/workflows/lock.yaml,config / CI / dependencies,True
+79b3cecc3db0ca8efe2ba1eb43b7d7572811cdfc,2021-12-22 15:45:44-08:00,False,1,updates go to maintenance branch,.pre-commit-config.yaml,config / CI / dependencies,False
+9e00becf3a7a710ab06379f8d7aee1547a4dd332,2021-12-22 15:53:23-08:00,False,1,update option names for v3,.github/workflows/lock.yaml,config / CI / dependencies,False
+0122a4f34f2d4f68fc64ca14532f2fbaed5c302f,2021-12-22 18:59:28-07:00,False,1,Fix the command for checking port on macOS in server docs,docs/server.rst,documentation / project docs,False
+93a7f08bbca37de2ef73cc21ebfcb6e446087616,2021-12-22 19:58:07-07:00,False,1,pin os and python version in rtd build,.readthedocs.yaml,config / CI / dependencies,False
+1a1c7ea61860ad97a998b24532f0a89a5aee7914,2021-12-22 20:02:25-07:00,False,1,pin os and python version in rtd build,.readthedocs.yaml,config / CI / dependencies,False
+9e50ad55ae6c3938c2ffd0cad89942c12fca865c,2021-12-22 20:06:08-07:00,False,1,pin os and python version in rtd build,.readthedocs.yaml,config / CI / dependencies,False
+08ad8aabfea88c1c3367c1c1ba6b97aa40faf18c,2022-01-14 08:32:36-08:00,False,1,Remove X-XSS-Protection suggestion,docs/security.rst,documentation / project docs,False
+9a134da31bafc12d31f75474a4b354c80545b9b5,2022-01-27 11:43:42+01:00,False,1,Match typing declaration with implementation.,src/flask/templating.py,production code,False
+436c7afc83845ce18d2a8e1bda8f4f48917584a2,2022-02-07 21:19:46+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+694eb84f414436fc88f2ef757aea8ed8360500f3,2022-02-08 10:26:21-08:00,False,1,reword changelog for importlib.resources,CHANGES.rst,changelog,False
+925674761e9893dae96d8c2ff226a4cf47a21ba8,2022-02-08 12:26:25-08:00,False,1,cache pip with setup-python action,.github/workflows/tests.yaml,config / CI / dependencies,False
+1fd86547193a1ed39bb0cabb927fc1a719ce3009,2022-02-08 12:26:25-08:00,False,1,"stop using dependabot for python, too noisy",.github/dependabot.yml,config / CI / dependencies,False
+6f79cb8a23467aa01f94f6ad53790f468ba77c76,2022-02-16 21:12:01-08:00,False,1,Fix typing on `app.session_interface`,src/flask/app.py,production code,False
+ad13dbc826a23d3ce53e50944a15b1e2bc168abd,2022-02-17 16:26:06-08:00,False,1,pin setuptools for reorder_python_imports,.pre-commit-config.yaml,config / CI / dependencies,False
+7dc26a1f4188f6cb410fb1335cc933cc8f3c9943,2022-03-01 16:04:16+00:00,False,1,Bump actions/setup-python from 2 to 3,.github/workflows/tests.yaml,config / CI / dependencies,True
+af34b8c9e7adbf0b060738fee12f04c1e46a98fd,2022-03-08 20:13:30+05:30,False,1,Add better types for app decorators,src/flask/scaffold.py,production code,False
+d80f41f57dbae28c784fde0fc829807cc2ab4a76,2022-03-22 10:29:00+01:00,False,1,Update errorhandling.rst,docs/errorhandling.rst,documentation / project docs,False
+6578b493c8c8d5d9b4135cb964dbbc43318cfb12,2022-03-23 09:13:45-07:00,False,1,better override for json BadRequest error,src/flask/wrappers.py,production code,False
+41aaaf7fa07f28ef15fd1d343142e96440889a8b,2022-03-25 12:24:31-07:00,False,1,clean up unused function from prefixed_env pr,src/flask/config.py,production code,False
+cd4ab005a92ff996e9104c92017fe1e6daeccd46,2022-03-28 12:09:35-07:00,False,1,fix typing,src/flask/wrappers.py,production code,False
+f5ed54b0318815e4500e72a56173c3b14a532a41,2022-03-28 12:09:35-07:00,False,1,ignore examples tests,tox.ini,config / CI / dependencies,False
+c419931f555c80b07b518944fc7004f6cb75b8e1,2022-03-30 14:28:18-07:00,False,1,release version 2.1.1,CHANGES.rst,changelog,False
+c6f297719e43380011e76ad6d070b7a27d4d1dce,2022-03-30 14:35:07-07:00,False,1,release version 2.1.1,src/flask/__init__.py,production code,False
+9f4f559f5946306b190a0195baf2700851a9eb36,2022-04-01 16:04:08+00:00,False,1,Bump actions/checkout from 2 to 3,.github/workflows/tests.yaml,config / CI / dependencies,True
+50bf3bba7354275bbfe3f8a4fc9ce1fec3b71404,2022-04-08 10:53:20-07:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+56414782ca6c109f4c7c9d26418bf444468316db,2022-04-08 10:53:28-07:00,False,1,pre-commit update branch,.pre-commit-config.yaml,config / CI / dependencies,False
+e3c014f9aa566c83efd482ce1cd0e5e25cdb6cf2,2022-04-08 10:57:02-07:00,False,1,"docs ""Returning API Errors as JSON"" return correct status code",docs/errorhandling.rst,documentation / project docs,False
+19d7a0ef78f1f8a05f7be5f0e8d2192fd1d5e5e8,2022-04-08 11:03:06-07:00,False,1,docs pass cli args as kwarg to test runner,docs/testing.rst,documentation / project docs,False
+411dbb37e2e37943b6282365049c2a8cee4ac9e6,2022-04-11 06:11:37-07:00,False,1,remove old test,tests/test_cli.py,tests,False
+4dd14ed039aaab5edb50758edeaf0aacab3d1e5b,2022-04-13 18:49:51+02:00,False,1,Syntax error in testing.rst,docs/testing.rst,documentation / project docs,False
+3fd24c1f6fa2b3a5b68fb87b0fc3453a352340e5,2022-04-25 10:55:30-05:00,False,1,Fix copy/paste error in wsgi-standalone.rst,docs/deploying/wsgi-standalone.rst,documentation / project docs,False
+8ddbad9ccdc176b9d57a4aff0076c1c58c455318,2022-05-02 09:11:07-07:00,False,1,Fix linting error.,src/flask/cli.py,production code,False
+9158d3b0b8c282e6d8580b76fb5098002d4ec0d4,2022-05-02 11:58:24-06:00,False,1,remove tab directive,CONTRIBUTING.rst,documentation / project docs,False
+11195f10838d84df0c5ab7158a99bbb94e34fc5a,2022-05-04 06:03:31-07:00,False,1,remove outdated dotenv docs,docs/cli.rst,documentation / project docs,False
+e044b00047da9bf94e7eb88049a17fe1dcf78f4e,2022-05-23 09:09:12-07:00,False,1,avoid triggering setupmethod late in tests,tests/test_basic.py,tests,False
+9252be9c9ebe46dd6415b24999a869ed87eace57,2022-05-23 10:16:45-07:00,False,1,docs: new configuration format for celery,docs/patterns/celery.rst,documentation / project docs,False
+c45c81938a1715eb4bdf9eaf6ac9d75becb8c191,2022-05-23 10:42:51-07:00,False,1,Add link to additional packaging info,docs/tutorial/install.rst,documentation / project docs,False
+3ecebcdf8de02818cd409afd6edd39a09248b3ef,2022-05-31 17:51:39+02:00,False,1,Add test config.from_mapping method: ignoring items with non-upper keys,tests/test_config.py,tests,False
+8c6f1d96ded2a22429b1ee7da6c3870cb140b587,2022-06-01 11:34:51-07:00,False,1,add example code for testing typing tools,tests/typing/typing_route.py,tests,False
+5d31ce1031e8ca24dc908c319567a76110edd87e,2022-06-01 12:16:21-07:00,False,1,Fix incorrect references to query in testing doc,docs/testing.rst,documentation / project docs,False
+72cae9ce2b6a5a296b7328df8dd73240e14718e6,2022-06-05 02:57:49+02:00,False,1,Remove extra backtick,src/flask/scaffold.py,production code,False
+48766754b8e8a16bfb075229eaaf88643c958c4e,2022-06-05 15:49:41-07:00,False,1,add typing tests to mypy config,setup.cfg,config / CI / dependencies,False
+b06df0a792ceb5506da47e0c8fea09902c1058f9,2022-06-06 09:17:53-07:00,False,1,remove outdated instance path test,tests/test_instance_config.py,tests,False
+45174bf9a1e96e51ce589c7aa2c151249d1fdf11,2022-06-06 15:48:36-07:00,False,1,use __init_subclass__ instead of metaclass for MethodView,src/flask/views.py,production code,False
+9934528c8f7e3aa6f4a1c800cba439e5425a5093,2022-06-09 09:12:10-07:00,False,1,Update send_from_directory docstring,src/flask/helpers.py,production code,False
+a9878c018bdecc377788204a3bc93497ec1f050a,2022-06-12 16:03:51-07:00,False,1,remove mod_wsgi-standalone,docs/deploying/mod_wsgi.rst,documentation / project docs,False
+9c50b8fc1ca160803f7368fc44f12591da856fd4,2022-06-13 06:08:45-07:00,False,1,fix formatting,docs/deploying/eventlet.rst,documentation / project docs,False
+abcb6c96777794da1142b0117f8c57f95cba65b7,2022-06-23 05:54:56-07:00,False,1,Update javascript.rst,docs/patterns/javascript.rst,documentation / project docs,False
+64ab59817dedd7959b4b38d47403c86415f4a322,2022-06-28 06:24:46-07:00,False,1,show separate HTTP method route decorators in quickstart,docs/quickstart.rst,documentation / project docs,False
+2589328485f51ad17afda682dd84a83da4e4e38e,2022-07-01 16:05:52+00:00,False,1,Bump actions/setup-python from 3 to 4,.github/workflows/tests.yaml,config / CI / dependencies,True
+ab6a8b0330845c80d661a748314691302ea7d8f7,2022-07-02 21:02:00-07:00,False,1,relax routes cli match order,tests/test_cli.py,tests,False
+50df54e4c7fb06df51a89d8f363e2997d2310449,2022-07-04 08:35:36-07:00,False,1,explain workflow,.github/workflows/lock.yaml,config / CI / dependencies,False
+e9d0000fc152108948144def06b2ac84524bffcc,2022-07-04 22:37:19+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+2f1d1d625697b9eca82dc8b2f46fff24dace63b1,2022-07-08 14:33:20+01:00,False,1,Add further typing tests,tests/typing/typing_app_decorators.py,tests,False
+6751f68560bfa7c51133d2712830645ed551ace8,2022-07-08 10:21:42-07:00,False,1,New URL for the Quart project,docs/async-await.rst,documentation / project docs,False
+89463cb77c7f3830c308cdfcc250255fd7377d01,2022-07-08 11:13:09-07:00,False,1,require Werkzeug 2.2,setup.py,other,False
+0b2f809f9b56861dae3ae5154d73b4afaf632a0a,2022-07-08 11:13:09-07:00,False,1,access names as proxies directly,src/flask/globals.py,production code,False
+979e0adbacfb3c5cc1ac678b4ef5373dadde83d3,2022-07-08 12:02:18-07:00,False,1,fix pr link,CHANGES.rst,changelog,False
+58ecacd271c2a07018cb6f65da164d4bed1e14ea,2022-07-10 07:22:56-04:00,False,1,Change Roll back by Rever,CHANGES.rst,changelog,False
+03b410066b96f63ba2a215750f881d5bebb78a29,2022-07-11 18:02:00-04:00,False,1,Fix docs/CHANGES.rst typo,CHANGES.rst,changelog,False
+4f01c68a4bcabf7dde010b7c602f2811aa89a852,2022-07-13 14:02:50-07:00,False,1,fix issue link,CHANGES.rst,changelog,False
+2869ddf50ce8dbf590a5a6992ffc7bbd096884a3,2022-07-24 19:35:28-07:00,False,1,update blinker intersphinx link,docs/conf.py,documentation / project docs,False
+363be75e8401350d4f1b131723991d382fce83c6,2022-07-24 19:36:31-07:00,False,1,remove reference links from changelog,CHANGES.rst,changelog,False
+095651be9eec58ddb0c2eb6158318b1c703c67c5,2022-07-25 07:35:17-07:00,False,1,fix has_app_context and has_request_context,src/flask/ctx.py,production code,False
+7d53a129cf1b28f1a88491ae50877473b68bdb54,2022-08-01 10:52:12-07:00,False,1,remove __traceback_hide__,src/flask/cli.py,production code,False
+6f9ef112865eae12684aa74924ee08504044a62d,2022-08-01 23:18:11+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+01dec1889127a3fc09eaa0dac905559740842992,2022-08-01 17:46:38-07:00,False,1,start version 2.3.0,CHANGES.rst,changelog,False
+cb4ee201179f7c414fbcd02145a1147f2793fa46,2022-08-01 17:46:58-07:00,False,1,pre-commit updates latest release branch,.pre-commit-config.yaml,config / CI / dependencies,False
+e3df23374cdb9342a823556170c53c9d987d0d33,2022-08-05 11:29:39-07:00,False,1,remove env from shell banner,src/flask/cli.py,production code,False
+6ab3cb8d0cb1fa28dd2e0118c07e481720bd684a,2022-08-08 10:27:57-07:00,False,1,fix issue number,CHANGES.rst,changelog,False
+00b07c863ec147256b68f71c3fe9b6b2f9dbe6bc,2022-08-09 09:48:02+02:00,False,1,fix typo,src/flask/globals.py,production code,False
+22b6296830113827810d4e89c634f8153020f097,2022-08-09 09:45:02+01:00,False,1,Update javascript.rst,docs/patterns/javascript.rst,documentation / project docs,False
+77cdefcceeb90e261977493318bc8e71c5b15c33,2022-08-13 10:08:11+08:00,False,1,Fix typo,docs/quickstart.rst,documentation / project docs,False
+1d07857b1ddd2c0aef6d09436b307eb7abfdbd39,2022-08-15 07:29:34-07:00,False,1,fix typo,docs/patterns/streaming.rst,documentation / project docs,False
+d94634b1beaf81afea662692874fdaa4c8a6bd89,2022-08-15 07:34:50-07:00,False,1,fix view docs,docs/views.rst,documentation / project docs,False
+2d3f72574dcb9026c3fed6b68568351a4b18a69a,2022-08-15 12:37:11-07:00,False,1,fix typo,docs/extensiondev.rst,documentation / project docs,False
+86bf3f205feaa86e149674cd0f23a14f3e5c2e22,2022-08-17 17:00:25+01:00,False,1,Correct `waitress-serve` command,docs/deploying/waitress.rst,documentation / project docs,False
+746455d1038fd5479f396cbf2d19b48edfeb8290,2022-08-21 10:24:03-04:00,False,1,Fix misrendered docstring,src/flask/config.py,production code,False
+00bdc2b448a10c690b159d778391fe23852cfc08,2022-08-22 09:05:52-07:00,False,1,fix: remove obsolete `zip_safe` (#4783),docs/tutorial/install.rst,documentation / project docs,False
+ce6ad90ecf79daf759e177e0403f27c469c7f6a8,2022-08-27 06:03:46-07:00,False,1,remove heroku link,docs/deploying/index.rst,documentation / project docs,False
+e7b2ce9a50c4a3a1ff5d032f201ed43d8cd39f17,2022-09-02 08:52:13-07:00,False,1,Add missing .dev to version (#4801),src/flask/__init__.py,production code,False
+8811ae037a70621fdca8b109d155ff4aed0eb662,2022-09-07 12:07:20-07:00,False,1,[pre-commit.ci] pre-commit autoupdate (#4806),.pre-commit-config.yaml,config / CI / dependencies,True
+2c7877123880d44f5d964c7370ed5dd4dbc45ad2,2022-09-14 06:07:20-07:00,False,1,Fix missing assignment in MethodView example (#4815),docs/views.rst,documentation / project docs,False
+9c3deeee963e62dfb60c9343fad4ec2ec752fdba,2022-09-14 06:08:38-07:00,False,1,Fix argument in `register_api()` in docs/view.rst (#4818),docs/views.rst,documentation / project docs,False
+0d8c8ba71bc6362e6ea9af08146dc97e1a0a8abc,2022-09-18 04:53:47-07:00,False,1,Fix docstring of test_request_context (#4821),src/flask/app.py,production code,False
+c7da6d74a89753405203e2ee7d19dda74b38b493,2022-10-03 23:30:28+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+75e92090ee43642ad0608edc8bc5d4dc5e84dec8,2022-10-04 21:12:13-04:00,False,1,fix typo in quickstart,docs/quickstart.rst,documentation / project docs,False
+5dfd2126a6d5210096ec6ba1ead471b79dc8bd17,2022-10-30 22:45:33+08:00,False,1,Fixed inconsistent double spacing in docs/api.rst,docs/api.rst,documentation / project docs,False
+9daddd12719a098ff33556fcc34c0b7cf33120ca,2022-11-01 00:06:23+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+9f99425aaf3433c892d0aeb941427f0766b02e2d,2022-11-07 20:38:32-08:00,False,1,[pre-commit.ci] pre-commit autoupdate (#4862),.pre-commit-config.yaml,config / CI / dependencies,True
+d951a763fb90ff3edb5aede5198198ee5d30d44e,2022-11-27 13:51:09+04:00,False,1,Fix backstick not rendering.,docs/config.rst,documentation / project docs,False
+9a294a640141ea8ab108e5c0964d75d91a636c0a,2022-11-27 13:10:14+01:00,False,1,Fix class-based views example,docs/extensiondev.rst,documentation / project docs,False
+3e932aa103661e78a0946e15f35b9f4da3908d39,2022-12-06 00:34:53+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+95b666871c7a89f2793952ea06d1c45e0ae5a38a,2022-12-13 13:27:38-08:00,False,1,Update api.rst,docs/api.rst,documentation / project docs,False
+43ef559de3ecb1915aabe8156f357d7ac4cd22b3,2022-12-22 21:28:18+08:00,False,1,Fix varname in docs,docs/views.rst,documentation / project docs,False
+8e3128b9893ba4ec8d120e1c2f479f61bd10a476,2022-12-24 10:22:37-07:00,False,1,ignore flake8 b905 zip(strict=True) until python 3.10,setup.cfg,config / CI / dependencies,False
+1a68768e6b0aa19bd670ca050ad81adff55ba479,2022-12-24 10:31:23-07:00,False,1,python 2 style inheritance clean up from docs,docs/patterns/appdispatch.rst,documentation / project docs,False
+6fcf6d00bd36f7c3c51115199615dc93c4a3007a,2022-12-24 10:56:00-07:00,False,1,"Fix URL ""committing as you go""",CONTRIBUTING.rst,documentation / project docs,False
+677a0468481a0f620bdb217e8f1a24ebe94681e5,2022-12-24 11:03:47-07:00,False,1,"Fix URL ""committing as you go""",CONTRIBUTING.rst,documentation / project docs,False
+bb1f83c26586f1aa254d67a67e6b692034b4cb4a,2023-01-01 16:01:00+00:00,False,1,Bump dessant/lock-threads from 3 to 4,.github/workflows/lock.yaml,config / CI / dependencies,True
+a7487701999fee55bb76a393e72c96ac8e277fcf,2023-01-09 11:07:49-08:00,False,1,clarify `View.as_view` docstring,src/flask/views.py,production code,False
+9da947a279d5ed5958609e0b6ec690160c496480,2023-01-09 12:45:16-08:00,False,1,set workflow permissions,.github/workflows/lock.yaml,config / CI / dependencies,False
+d93760d8bd6e367faefe9ad550f753e32ef9a12d,2023-01-23 17:01:49+02:00,False,1,Fix function argument name,docs/views.rst,documentation / project docs,False
+74c256872b5f0be65e9f71b91a73ac4b02647298,2023-02-01 16:01:30+00:00,False,1,Bump actions/cache from 3.2.3 to 3.2.4,.github/workflows/tests.yaml,config / CI / dependencies,True
+9abe28130d4f0aff48b4f9931ebc15bd7617f19f,2023-02-02 08:57:38-08:00,False,1,fix doc,docs/patterns/appfactories.rst,documentation / project docs,False
+c1d01f69994e87489d04c3218a417f517ab6c88e,2023-02-07 04:42:52+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+a15da89dbb4be39be09ed7e5b57a22acfb117e6d,2023-02-07 04:43:02+00:00,False,1,[pre-commit.ci] auto fixes from pre-commit.com hooks,tests/test_reqctx.py,tests,True
+428d9430bc69031150a8d50ac8af17cc8082ea4e,2023-02-09 09:38:57+07:00,False,1,Fix command-line formatting,docs/patterns/packages.rst,documentation / project docs,False
+dca8cf013b2c0086539697ae6e4515a1c819092c,2023-02-09 10:50:42-08:00,False,1,rewrite celery background tasks docs,docs/patterns/celery.rst,documentation / project docs,False
+ba2b3094d1a8177059ea68853a48fcd5e90920fe,2023-02-10 10:50:48-08:00,False,1,fix test client arg for query string example,docs/reqcontext.rst,documentation / project docs,False
+aa040c085c8c560616069f06c34cf796c10b05f1,2023-02-10 15:07:24-08:00,False,1,run latest black format,src/flask/templating.py,production code,False
+3cdcc729a73766bdb071b8b43a1d60971994db07,2023-03-01 16:57:31+00:00,False,1,Bump slsa-framework/slsa-github-generator from 1.4.0 to 1.5.0,.github/workflows/publish.yaml,config / CI / dependencies,True
+b8eb83940cc46e1499f8e4194f688f193232eedb,2023-03-01 16:57:34+00:00,False,1,Bump actions/cache from 3.2.4 to 3.2.6,.github/workflows/tests.yaml,config / CI / dependencies,True
+0bc6be604d465406c5909b13162e7097ab0ea2f8,2023-03-08 21:28:33+03:00,False,1,Update installation.rst,docs/installation.rst,documentation / project docs,False
+31022056aee5ab24cf485e31a0b48bbd52d96a04,2023-03-11 07:30:21-08:00,False,1,remove broken link,docs/errorhandling.rst,documentation / project docs,False
+15f2ca2c24c63533219312600942248d3513a670,2023-03-31 12:20:27-07:00,False,1,Update appfactories.rst,docs/patterns/appfactories.rst,documentation / project docs,False
+29676a273a5b9dc99268850c4fa534f78884cdd3,2023-04-01 16:57:01+00:00,False,1,Bump pypa/gh-action-pypi-publish from 1.6.4 to 1.8.4,.github/workflows/publish.yaml,config / CI / dependencies,True
+4909e8ff86508c87ba9a77a4adc602e9288c5141,2023-04-01 16:57:11+00:00,False,1,Bump actions/cache from 3.2.6 to 3.3.1,.github/workflows/tests.yaml,config / CI / dependencies,True
+d2a6f5c572f5275bb8c91286cfd24c2c504cc243,2023-04-04 06:31:29+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+67c4c7bac2fcd582ebb3474284a7c8a1e737c878,2023-04-11 15:34:39-07:00,False,1,ignore warning from pytest due to change in Python 3.12 alpha,pyproject.toml,config / CI / dependencies,False
+c67bfe551d016b15d0a2df89c985d8030387bf1e,2023-04-12 13:19:54-07:00,False,1,fix parentheses,docs/deploying/eventlet.rst,documentation / project docs,False
+b626a9387900a9f717eb42765275adc0bf0875e3,2023-04-12 13:30:28-07:00,False,1,Allow Response subclasses to set default_mimetype as None,src/flask/wrappers.py,production code,False
+f7d9956c0f0e9a80b1d345adac191f6ebd0ffee4,2023-04-13 08:18:14-07:00,False,1,use oidc instead of token,.github/workflows/publish.yaml,config / CI / dependencies,False
+9a4d370ea221b13d7fff5e2120007986c08f85fb,2023-04-15 07:39:35-07:00,False,1,fix typo,CONTRIBUTING.rst,documentation / project docs,False
+5bba529dfc9021a3df8fba96658a05f605e20afe,2023-04-15 11:53:56-07:00,False,1,document passthrough_errors,docs/debugging.rst,documentation / project docs,False
+d48deba27331f11e19599af2a5b6e64476fd90da,2023-04-24 11:06:27-06:00,False,1,Remove double period in signals documentation page,docs/signals.rst,documentation / project docs,False
+427e5dc4f3d82b67a75f4be21360818fd4fbf05e,2023-04-25 11:00:01-06:00,False,1,update dev env,tox.ini,config / CI / dependencies,False
+2d460685b1b3d66c713739ee91183c22fb2e5dc8,2023-04-25 11:41:10-06:00,False,1,update dev env,.github/workflows/tests.yaml,config / CI / dependencies,False
+9532cba45d2339e90ebf04f178b1e4f2064e7328,2023-05-01 08:10:25-07:00,False,1,fix mypy finding,src/flask/app.py,production code,False
+37badc3ce8b0665e3454547839196a676729309f,2023-05-01 08:13:12-07:00,False,1,update changelog,CHANGES.rst,changelog,False
+0afeb1d11cad9aa42ef25cc20b10dcd67c8cf3c9,2023-05-01 09:01:40-07:00,False,1,fix release date,CHANGES.rst,changelog,False
+ec8ca69195174a6526a6006d804841c0124eeccf,2023-05-01 16:57:14+00:00,False,1,Bump pypa/gh-action-pypi-publish from 1.8.4 to 1.8.5,.github/workflows/publish.yaml,config / CI / dependencies,True
+2abb7513dc52e9d9f2c73dde91f3b89d8f9492e4,2023-05-14 16:09:25+01:00,False,1,Allow for PathLike types for config file variables,src/flask/config.py,production code,False
+55332be325a9f1a5882a309951f1f7db510036dd,2023-05-18 14:33:44+02:00,False,1,docs: fix wrong JS syntax (#5136),docs/patterns/javascript.rst,documentation / project docs,False
+0f477df86a8c953cb5e4df0bd90266345140b114,2023-05-24 11:13:36+02:00,False,1,Config from Data Files to match from_file API,docs/config.rst,documentation / project docs,False
+38f02e04f4765a2820a2ed4f63ac757598cb02e4,2023-05-31 09:18:33-07:00,False,1,update metadata,pyproject.toml,config / CI / dependencies,False
+40f31c307848e560336fc8b336fbc2fdc1a478ee,2023-06-01 16:56:43+00:00,False,1,Bump slsa-framework/slsa-github-generator from 1.5.0 to 1.6.0,.github/workflows/publish.yaml,config / CI / dependencies,True
+fc74a114b3afe87284467f2ccdbeb7a4a8badbc4,2023-06-01 16:56:46+00:00,False,1,Bump pypa/gh-action-pypi-publish from 1.8.5 to 1.8.6,.github/workflows/publish.yaml,config / CI / dependencies,True
+7dbb2f7e05d2c0963e90016b1f7a3a45e98a865a,2023-06-06 09:25:47-07:00,False,1,retarget pre-commit.ci,.pre-commit-config.yaml,config / CI / dependencies,False
+32d2f47ed1bf3f27fd46e1a54dd136688de9ab81,2023-06-06 09:26:43-07:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+d614d6bf8c7b6db6f817648836f9044b13dc42b4,2023-06-06 09:30:34-07:00,False,1,ignore pytest ast warnings,pyproject.toml,config / CI / dependencies,False
+a7ae372f2f58343a7eb56209f29eb9879e171b58,2023-06-21 09:30:03-07:00,False,1,update import of declarative_base from SQLAlchemy,docs/patterns/sqlalchemy.rst,documentation / project docs,False
+d67c47b81f4cbfda79f108a8ee4a183855127efb,2023-06-27 08:29:41-07:00,False,1,simplify tox config,tox.ini,config / CI / dependencies,False
+f39c71609e9372bec8beb01c5aea3957ec2d1a9b,2023-06-27 14:18:18-07:00,False,1,remove manifest.in,MANIFEST.in,config / CI / dependencies,False
+aea13d5a100b03758fecb88a34daeab4f8aa8426,2023-06-29 17:20:35-07:00,False,1,fix typo in errorhandling doc,docs/errorhandling.rst,documentation / project docs,False
+47a89da558e240148ced28ddcc4e709a4be4955a,2023-07-01 16:16:19+00:00,False,1,Bump pypa/gh-action-pypi-publish from 1.8.6 to 1.8.7,.github/workflows/publish.yaml,config / CI / dependencies,True
+f62580b947e3be4d8b5ef5fa486d1472884aacd5,2023-07-01 16:16:22+00:00,False,1,Bump dessant/lock-threads from 4.0.0 to 4.0.1,.github/workflows/lock.yaml,config / CI / dependencies,True
+1fb188636e6a21e9c1fefdf4dd8c671dd3f332d6,2023-07-01 16:16:25+00:00,False,1,Bump slsa-framework/slsa-github-generator from 1.6.0 to 1.7.0,.github/workflows/publish.yaml,config / CI / dependencies,True
+11da927fd993c941618a67b443cc0649402f4de0,2023-07-03 05:51:06-07:00,False,1,Update install.rst with required description,docs/tutorial/install.rst,documentation / project docs,False
+65bc7636348a9ca32ccafb9f685ab4377e1e446d,2023-07-04 06:36:29+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+7255be9626ab56d81bc0ab86db939fcc1da9bca1,2023-08-01 08:45:55+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+dcc86ebfce71bf2829bce429134d6424355f159a,2023-08-01 16:56:22+00:00,False,1,Bump pypa/gh-action-pypi-publish from 1.8.7 to 1.8.8,.github/workflows/publish.yaml,config / CI / dependencies,True
+17e146ad949b3d80438faf95e81b53c543cb50f5,2023-08-16 13:33:13-07:00,False,1,Pass maxsplit via kwarg to re.split,src/flask/cli.py,production code,False
+c49ce2e1eb8b598e724388bead0943837bab8027,2023-08-16 13:37:26-07:00,False,1,fix flake8 bugbear findings,tests/test_basic.py,tests,False
+826514b8eb18f6c314cf566630253d35c89e42c3,2023-08-16 13:37:56-07:00,False,1,fix flake8 bugbear findings,tests/test_basic.py,tests,False
+aa6d4c3e92bd11a7d449f49f524e54bbb88b89c0,2023-08-16 14:25:36-07:00,False,1,update dispatch-by-path example,docs/patterns/appdispatch.rst,documentation / project docs,False
+a887e179b8af6a9c582a7918f9f8499ab58032cc,2023-08-16 14:25:53-07:00,False,1,clean up,docs/patterns/appdispatch.rst,documentation / project docs,False
+72c85e80c8ef9e6d5b5644f7bb23cdc175ca3873,2023-08-19 18:35:15+01:00,False,1,Provide an extendable merge blueprint funcs method,src/flask/sansio/blueprints.py,production code,False
+cc80a47f5be6c60e53c42ef9378e6db3b0e183b1,2023-08-19 18:35:15+01:00,False,1,Widen the response typing,src/flask/typing.py,production code,False
+80cf589a26d792820f135591eb8007bca891bf4f,2023-08-19 18:35:15+01:00,False,1,Correct the error handler typing,src/flask/typing.py,production code,False
+318592511c9c7156599fd02e3edf625097ecb434,2023-08-19 18:35:15+01:00,False,1,Add a brief README to the sansio,src/flask/sansio/README.md,documentation / project docs,False
+bc5dd3894b4b19e07abfe6a23d87d66c02e4061f,2023-08-19 19:25:36+01:00,False,1,Add a changelog for the sans-io changes,CHANGES.rst,changelog,False
+65271c105f7c247ecffc9a7121815276e092bd10,2023-08-27 07:12:04-07:00,False,1,Remove print left in by accident,src/flask/app.py,production code,False
+98cef9fcca23677f436b2d6d7297d14bb93b59fc,2023-09-01 16:30:31+00:00,False,1,Bump slsa-framework/slsa-github-generator from 1.7.0 to 1.9.0,.github/workflows/publish.yaml,config / CI / dependencies,True
+24c6508d39ad7fabd4c017b9a47d12539ea6b708,2023-09-01 16:30:35+00:00,False,1,Bump pypa/gh-action-pypi-publish from 1.8.8 to 1.8.10,.github/workflows/publish.yaml,config / CI / dependencies,True
+b7c1290528f907c9f41afcdfd33a2227c73e26d3,2023-09-24 15:58:22+01:00,False,1,Fix wrong spelling of JS method .innerHTML,docs/patterns/javascript.rst,documentation / project docs,False
+3652ecd9e0a3aa6595a559e2a231b11ead8a156c,2023-10-06 16:37:42-07:00,False,1,Update index.rst (#5291),docs/index.rst,documentation / project docs,False
+541bc8dfc2263cfa1ab2f209ce6132e1835cac9b,2023-10-06 17:36:39-07:00,False,1,examples/javascript: replace obsolete link (#5287),examples/javascript/README.rst,documentation / project docs,False
+bb9937593de3917d17c2da1fc55489f10bb3c8b2,2023-10-20 17:17:24+02:00,False,1,docs/testing.rst: fix follow_redirects sample code,docs/testing.rst,documentation / project docs,False
+be6ec06894b55b1b5a360ce3f8178c7963332ccd,2023-10-28 07:38:33+00:00,False,1,Fix link to Hypercorn in docs/deploying/asgi.rst - they moved from gitlab from github.,docs/deploying/asgi.rst,documentation / project docs,False
+29f1bd22d75cab1b0433339425fabd21b8229228,2023-11-09 08:39:48-08:00,False,1,update read the docs env,.readthedocs.yaml,config / CI / dependencies,False
+c4bfd367e2f1f26838de46d0cfa2d512985f42a3,2023-11-09 08:40:39-08:00,False,1,update description,.github/workflows/lock.yaml,config / CI / dependencies,False
+6ee5dcc0ec93e8c11e5362f1e151d99168d6d2e6,2023-11-09 08:45:23-08:00,False,1,update python version matrix,.github/workflows/tests.yaml,config / CI / dependencies,False
+33d888622676073a5cd9d5f268933de82a0345c0,2023-11-09 08:56:36-08:00,False,1,enable grouped updates for actions and python,.github/dependabot.yml,config / CI / dependencies,False
+627703656714c7011a5c7b65214cbf6ee07e3c23,2023-11-15 12:19:59-08:00,False,1,update read the docs env,.readthedocs.yaml,config / CI / dependencies,False
+560383fe14b29d05e62d1242fd2713a3b7f84c8e,2023-11-15 12:19:59-08:00,False,1,update python version matrix,.github/workflows/tests.yaml,config / CI / dependencies,False
+5308db0637dcc4592286ab0e6accbdd0604db494,2023-11-15 12:47:41-08:00,False,1,update pre-commit hooks,.pre-commit-config.yaml,config / CI / dependencies,False
+452b78f24331c9805075cc0572128a91f4345e32,2023-12-04 20:29:39+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+8a66990c6161b30422359244a052805dc98a5059,2023-12-13 15:10:47-08:00,False,1,Update docs to address redesigned macOS settings app,docs/server.rst,documentation / project docs,False
+c275573147b426fbe1a37c6bce143f7895b603b2,2023-12-13 16:27:37-08:00,False,1,run typing tests,pyproject.toml,config / CI / dependencies,False
+24ec38d6a0686f1a147420ebf4b31f5243e1cb42,2024-01-01 20:24:10+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+8fdab74cc80c39f45aa65da5dd029c8d262756c3,2024-01-01 20:24:30+00:00,False,1,[pre-commit.ci] auto fixes from pre-commit.com hooks,src/flask/helpers.py,production code,True
+da3a0ddfe2de5be718a2d7cb3021f350bf04c402,2024-01-18 11:53:19-08:00,False,1,fix slsa generator version,.github/workflows/publish.yaml,config / CI / dependencies,False
+5fcc999b7df0f5cc71cfd9b74ea494b96486f84f,2024-01-18 11:57:22-08:00,False,1,fix create release action,.github/workflows/publish.yaml,config / CI / dependencies,False
+ad36383951c130f16e02b5f61b1161da99bc1ca4,2024-02-05 20:28:43+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+0e59442f6cce9442c1dcaf8515df7182312fa6cd,2024-02-27 01:24:27+01:00,False,1,Use per-release URLs in GH env UI when publishing to the PyPI,.github/workflows/publish.yaml,config / CI / dependencies,False
+adb7dd99c295a28726c8d818fba54c7b3f958ecc,2024-04-07 12:03:19-07:00,False,1,don't access app.logger when configuring app.logger,docs/logging.rst,documentation / project docs,False
+c12a5d874c5a014495eb2db8a73f40037bc813ac,2024-04-07 12:17:41-07:00,False,1,release version 3.0.3,CHANGES.rst,changelog,False
+346d1abaff0270104ffa3a0e8bee7de279a1cee7,2024-04-08 15:28:28-07:00,False,1,remove install and contribute sections,README.md,documentation / project docs,False
+f958b6500b2aeb8edc578a07f00546becdad4c80,2024-04-08 15:28:57-07:00,False,1,build docs from scratch each test,tox.ini,config / CI / dependencies,False
+db0fe9436e9da7f7bd14683542bbf33ba3c6d5e4,2024-04-23 16:31:03-07:00,False,1,unignore upload/download-artifact,.github/dependabot.yml,config / CI / dependencies,False
+ccf125bf30102beedafb3ecef72376bfb6c90a4d,2024-04-23 16:49:42-07:00,False,1,fix mypy findings,src/flask/sessions.py,production code,False
+823e279e0dd40d8818a8d58c12a7df22caae1c04,2024-05-02 17:57:34+10:00,False,1,Update pyproject.toml,examples/javascript/pyproject.toml,config / CI / dependencies,False
+a363642a32880114c7944b1017f2f69bd4cc00eb,2024-05-06 10:09:58-07:00,False,1,fix mypy finding with new werkzeug endpoint type,src/flask/wrappers.py,production code,False
+eb1182a10e757b5e76009c69fdf3a88a5afc6840,2024-05-06 10:12:32-07:00,False,1,fix mypy finding,src/flask/sessions.py,production code,False
+860a25c390eba8e6c089a818b02800dd9d789864,2024-05-06 10:23:10-07:00,False,1,fix mypy finding,src/flask/helpers.py,production code,False
+4e894892bc0230c46e998b6ea82b5b07b9943a39,2024-05-06 22:05:35+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+4a1766c252bac0de1368cc4eaefba1299f77d546,2024-05-25 10:23:44-07:00,False,1,document caveats on SESSION_COOKIE_DOMAIN,docs/config.rst,documentation / project docs,False
+767ad19b10c64af1fa328383713ea97e23cc0080,2024-05-25 11:25:24-07:00,False,1,Edited variable names in the rendering templates section of the quickstart guide.,docs/quickstart.rst,documentation / project docs,False
+c7da8c2aa3a923fc620ad480a8831a8a0f21ab37,2024-05-25 11:28:19-07:00,False,1,Added python type annotation and return type.,src/flask/sansio/app.py,production code,False
+07c8f19bfd6128c7cbb9c61c41b43a9eeca1b435,2024-06-03 22:10:27+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+3d357273b50ed9c8ca660f60fde255c26ff7a228,2024-07-02 00:15:33+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+321bd74b954156553db3dca8f43b45cdd5a88f76,2024-07-10 18:06:15-07:00,False,1,Update waitress.rst,docs/deploying/waitress.rst,documentation / project docs,False
+326ad3f43c63f84a69d6d08af276cbdf653efc51,2024-08-05 23:09:19+00:00,False,1,[pre-commit.ci] pre-commit autoupdate,.pre-commit-config.yaml,config / CI / dependencies,True
+2d31dce8262a68875c177645fa0c7585a45ac447,2024-08-23 16:33:40-07:00,False,1,remove dependabot,.github/dependabot.yml,config / CI / dependencies,False
+2c5d652493b79eecadd4407f24f2249948bd6ff2,2024-08-23 16:33:59-07:00,False,1,remove unused config,pyproject.toml,config / CI / dependencies,False
+f93dd6e826a9bf00bf9e08d9bb3a03abcb1e974c,2024-08-23 18:05:21-07:00,False,1,remove pre-commit.ci update,.pre-commit-config.yaml,config / CI / dependencies,False
+db49548d7168bba319fdba400bc201528cb1d3cd,2024-09-01 08:32:27-07:00,False,1,set up pre-commit lite workflow,pre-commit.yaml,config / CI / dependencies,False
+111e5bd3129deee54ff62b0d13ed7e5739c27108,2024-09-01 08:48:02-07:00,False,1,set up pre-commit lite workflow,.github/workflows/pre-commit.yaml,config / CI / dependencies,False
+2fec0b206c6e83ea813ab26597e15c96fab08be7,2024-09-01 09:04:14-07:00,False,1,set up pre-commit lite workflow,.github/workflows/pre-commit.yaml,config / CI / dependencies,False
+e63ead4208c1e56723532878728ef9c2eb197b01,2024-09-24 08:54:01+08:00,False,1,Fix typo in the changelog,CHANGES.rst,changelog,False
+c5a5576522273ff028018c4e13d1fc4d0260495b,2024-10-18 10:03:49-07:00,False,1,update CHANGES.rst,CHANGES.rst,changelog,False
+dffe3034825edc4f84aded013fc9c6590e545ed5,2024-10-18 13:04:35-07:00,False,1,fix mypy findings,src/flask/helpers.py,production code,False
+74721b48f0347f19f134f386fab3421e5132fb53,2024-10-22 17:32:02-03:00,False,1,Fix the issue link in the Flask 3.0.1 Changelog in the send_file argument type entry,CHANGES.rst,changelog,False
+96800fb673cb7b2d75476096798e701e3e6d26bc,2024-10-24 13:28:46-07:00,False,1,update test workflow trigger,.github/workflows/tests.yaml,config / CI / dependencies,False
+5e8cb740187c0561b36323dfc8510e58c3066838,2024-10-24 13:29:34-07:00,False,1,update test workflow trigger,.github/workflows/pre-commit.yaml,config / CI / dependencies,False
+df201ed152b61c439ea1ace179f35b424594ba6c,2024-11-01 16:44:17-07:00,False,1,fix js example test,examples/javascript/tests/test_js_example.py,other,False
+98ae71897600a3162f529b1b30c70b8abdf0961b,2024-11-01 18:06:34-07:00,False,1,fix mypy finding,src/flask/app.py,production code,False
+6c44dd4bb8e4f2ca5f135f172de4725b2cada155,2024-11-06 09:47:57-08:00,False,1,update helpers.send_from_directory docstring (#5599),src/flask/helpers.py,production code,False
+f49dbfd3e451006a485e81ebce030495131c4454,2024-11-13 08:22:57-08:00,False,1,use generic bases for session,src/flask/sessions.py,production code,False
+70602a196a6da90eb0d34cdfe5d4d16a99606279,2024-11-13 09:23:24-08:00,False,1,remove test pypi,.github/workflows/publish.yaml,config / CI / dependencies,False
+18ffe1eaf6c2eeffc898f4e8a590c062c40b30dc,2024-11-20 19:37:06-08:00,False,1,add gettext config for docs,docs/conf.py,documentation / project docs,False
+b394a994e6d632643d0061e0e67772f076925951,2024-11-23 16:03:47-08:00,False,1,update `__version__` deprecation,src/flask/__init__.py,production code,False
